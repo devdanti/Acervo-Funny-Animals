@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo Funny Animals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho_menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Cães</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Gatos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Adoção</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Conheça nossa iniciação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contate-nos</a>
+                </li>
+            </ul>
+            <img src="./Assets/logo-afa.png" alt="Logo patinha" class="container__img">
+        </div>
+        <div class="container">
+            <a href="#"><img src="./Assets/Favoritos2.svg" class="container__imagem"></a>
+            <a href="#"><img src="./Assets/Sacola.png" class="container__imagem"></a>
+            <a href="#"><img src="./Assets/Usuario.png" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa estante de memes classicos de animais engraçados o que precisa para
+            dar uma <strong>boa risada</strong>!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/gato-susto.jpeg" alt="Gato Assustado"></div>
+                <div class="swiper-slide"><img src="./Assets/cao-cabelo.jpeg" alt="Cao com cabelo"></div>
+                <div class="swiper-slide"><img src="./Assets/caramelo.jpeg" alt="Cachorro Caramelo"></div>
+                <div class="swiper-slide"><img src="./Assets/cao-meme.jpeg" alt="Cachorro do meme"></div>
+                <div class="swiper-slide"><img src="./Assets/gato-choro.jpg" alt="Gato Chorando"></div>
+                <div class="swiper-slide"><img src="./Assets/gato-meme.jpg" alt=""></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+            <!--1º linha-->
+            <div class="card__descricao">
+                <!--1° coluna-->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Adote Cães Idosos</h2>
+                    <p class="descricao__texto">Eles também podem fazer você feliz.</p>
+                </div>
+                <!--2º coluna-->
+                <img src="./Assets/cao-antigo.jpg" alt="Cão Antigo" class="descricao_imagem">
+            </div>
+            <!--2º linha-->
+            <div class="card__botoes">
+                <!--1º coluna-->
+                <ul class="botoes">
+                    <li class="botoes__item heart">❤️</li>
+                    <li class="botoes__item email"><img src="./Assets/Email.png" alt="Mensagem" width="36px"
+                            height="38px"></li>
+                </ul>
+                <!--2º coluna-->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="carrossel">
+        <div class="carrossel__titulo">Mais Vendidos</div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/gato-susto.jpeg" alt="Gato Assustado"></div>
+                <div class="swiper-slide"><img src="./Assets/gato-meme.jpg" alt="Cao com cabelo"></div>
+                <div class="swiper-slide"><img src="./Assets/gato-choro.jpg" alt="Cachorro Caramelo"></div>
+                <div class="swiper-slide"><img src="./Assets/cao-meme.jpeg" alt="Cachorro do meme"></div>
+                <div class="swiper-slide"><img src="./Assets/caramelo.jpeg" alt="Gato Chorando"></div>
+                <div class="swiper-slide"><img src="./Assets/cao-cabelo.jpeg" alt="Cão com Cabelo"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="card">
+            <!--1º Linha-->
+            <div class="card__descricao">
+                <!--1º Coluna-->
+                <div class="descricao">
+                    <img src="./Assets/Estrelinhas.png" alt="Avaliação do publico">
+                    <h3 class="descricao__titulo">Criadora de Conteúdos do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Julia Romanof</h2>
+                    <p class="descricao__texto">Analista de tendências e comentarista crítica, Romanof é especialista em
+                        Memes.</p>
+                </div>
+                <!--2º Coluna-->
+                <img src="./Assets/Perfil-escritora 1.png" alt="Julia Romanof" class="descricao_imagem">
+            </div>
+            <!--2º Linha-->
+            <div class="card__botoes">
+                <!--1º Coluna-->
+                <ul class="botoes">
+                    <li class="botoes__item heart">❤️</li>
+                    <li class="botoes__item email"><img src="./Assets/Email.png" alt="Mensagem" width="36px"
+                        height="38px"></li>
+                </ul>
+                <!--2º Coluna-->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">Tópicos Visitados Recentemente</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Gatos Desastrados</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Cães</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Pinchers</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Animais Divertidos</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Adoção</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Cães e Gatos</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Roupas para gatos</a>
+            </li><li class="topicos__item">
+                <a href="#" class="topicos__link">Gatos de mau humor</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de figurinhas, novas tendências, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr/> <!--Quebra de link no site-->
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Desenvolvido por Dev Danti</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 3,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
